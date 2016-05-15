@@ -1,0 +1,20 @@
+{
+    "name": "a2design/extended-crud",
+    "description": "Allows DB structure listing (with types)",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vladislav Bezverkhiy",
+            "email": "bezverhiy@a2design.biz"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "A2Design": "src"
+        }
+    },
+    "require": {
+        "appzcoder/crud-generator": "^1.0"
+    },
+    "minimum-stability" : "dev"
+}
