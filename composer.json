@@ -10,7 +10,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "A2Design\\ExtendedCrud": "src/"
+            "A2Design\\ExtendedCrud\\": "src/"
         }
     },
     "require": {
