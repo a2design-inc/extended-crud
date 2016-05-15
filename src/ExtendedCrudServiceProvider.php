@@ -7,6 +7,14 @@ use Illuminate\Support\ServiceProvider;
 
 class ExtendedCrudServiceProvider extends OriginalCrudGeneratorServiceProvider
 {
+
+    public function boot()
+    {
+        parent::boot();
+        $this->publishes([
+            __DIR__ . '/stubs/_partials' => base_path('resources/crud-generator/_partials'),
+        ]);
+    }
     /**
      * Register the application services.
      *
