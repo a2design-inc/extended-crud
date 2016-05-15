@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace A2Design\ExtendedCrud;
 
 use Appzcoder\CrudGenerator\CrudGeneratorServiceProvider as OriginalCrudGeneratorServiceProvider;
 use Illuminate\Support\ServiceProvider;
