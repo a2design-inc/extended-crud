@@ -1,6 +1,6 @@
 {
     "name": "a2design/extended-crud",
-    "description": "Allows DB structure listing (with types)",
+    "description": "Extends templates compiling for appzcoder/crud-generator",
     "license": "MIT",
     "authors": [
         {
